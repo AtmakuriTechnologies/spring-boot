@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<base href="http://demos.telerik.com/kendo-ui/menu/index">
+    <style>html { font-size: 14px; font-family: Arial, Helvetica, sans-serif; }</style>
+    <title></title>
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2017.2.621/styles/kendo.common-material.min.css" />
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2017.2.621/styles/kendo.material.min.css" />
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2017.2.621/styles/kendo.material.mobile.min.css" />
+
+    <script src="https://kendo.cdn.telerik.com/2017.2.621/js/jquery.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2017.2.621/js/kendo.all.min.js"></script>
+		<title>Atmakuri Technologies</title>
+	</head>
+	<body>
+		<div id="example">
+        <div id="megaStore">
+            <ul id="menu">
+                <li>
+                    About Us
+                 </li>
+                        
+                <li>
+                    Services
+                    
+                </li>
+                <li>
+                    Blog
+                </li>
+                <li>
+                    Company
+                </li>
+                <li>
+                    Events
+                </li>
+                <li disabled="disabled">
+                    News
+                </li>
+            </ul>
+        </div>
+        <style>
+            #megaStore {
+                max-width: 600px;
+                margin: 30px auto;
+                padding-top: 120px;
+                background: url('../content/web/menu/header.jpg') no-repeat center 0;
+            }
+            #menu h2 {
+                font-size: 1em;
+                text-transform: uppercase;
+                padding: 5px 10px;
+            }
+            #template img {
+                margin: 5px 20px 0 0;
+                float: left;
+            }
+            #template {
+                width: 380px;
+            }
+            #template ol {
+                float: left;
+                margin: 0 0 0 30px;
+                padding: 10px 10px 0 10px;
+            }
+            #template:after {
+                content: ".";
+                display: block;
+                height: 0;
+                clear: both;
+                visibility: hidden;
+            }
+            #template .k-button {
+                float: left;
+                clear: left;
+                margin: 5px 0 5px 12px;
+            }
+        </style>
+        <script>
+            $(document).ready(function() {
+                $("#menu").kendoMenu();
+            });
+        </script>
+    </div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<img src="/img/logo3.jpg" alt="Atmakuri Technologies" style="width:304px;height:228px;">
+		<h1>Atmakuri Technologies - Home</h1>
+		<p>This is the welcome page of our first webapp.</p>
+
+	</body>
+</html>
