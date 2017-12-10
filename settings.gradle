@@ -15,4 +15,4 @@ include 'api'
 include 'services:webservice'
 */
 
-rootProject.name = 'Spring-boot-gradle'
+rootProject.name = 'BusinessTemplate1'

@@ -17,5 +17,10 @@ public class TestController {
 		public ModelAndView secondPage() {
 			return new ModelAndView("contactus");
 		}
+		
+		@RequestMapping("/jagan.html")
+		public ModelAndView thirdPage() {
+			return new ModelAndView("jagan");
+		}
 
 }
